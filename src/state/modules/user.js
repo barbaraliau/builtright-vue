@@ -21,6 +21,9 @@ const mutations = {
 }
 
 const actions = {
+  testAction({ commit, state }, stuff) {
+    console.log('test action triggered')
+  }
  //these won't register
 }
 

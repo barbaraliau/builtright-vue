@@ -51,6 +51,7 @@
           grant_type: 'password'
         }
         this.$store.dispatch('loginUser', user)
+        this.$store.dispatch('testAction', 'hai')
       }
     }
   }
